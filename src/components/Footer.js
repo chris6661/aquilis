@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            footer
+            this is test text for foot
         </div>
     )
 }

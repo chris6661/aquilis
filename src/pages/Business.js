@@ -3,7 +3,7 @@ import React from 'react'
 const Business = () => {
     return (
         <div>
-            business
+            test text for competishhh
         </div>
     )
 }

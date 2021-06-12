@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
     return (
         <div>
-            testimonials
+            test text for what people be saying about this place
         </div>
     )
 }

@@ -2,8 +2,10 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div>
-           Navbar 
+        <div className ="nav">
+           <Navbar>
+               this is test text for nav
+           </Navbar>
         </div>
     )
 }

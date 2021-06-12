@@ -3,7 +3,7 @@ import React from 'react'
 const Locations = () => {
     return (
         <div>
-            locations
+            test text for places
         </div>
     )
 }

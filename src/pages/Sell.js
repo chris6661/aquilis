@@ -3,7 +3,7 @@ import React from 'react'
 const Sell = () => {
     return (
         <div>
-            sell
+            test text for the monies section
         </div>
     )
 }
