@@ -8,4 +8,4 @@ const Business = () => {
     )
 }
 
-export default Business
+export default Business;

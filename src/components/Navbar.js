@@ -3,11 +3,11 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div className ="nav">
-           <Navbar>
-               this is test text for nav
-           </Navbar>
+           <navbar>
+               this is test text for nav, tis is test 2
+           </navbar>
         </div>
     )
 }
 
-export default Navbar
+export default Navbar;
