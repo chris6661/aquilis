@@ -4,6 +4,7 @@ import About from './pages/About';
 import Book from './pages/Book'; 
 import Business from './pages/Business';
 import Footer from "./components/Footer";  
+import Header from "./pages/Header"; 
 import Home from './pages/Home'; 
 import Locations from './pages/Locations'; 
 import Navbar from './components/Navbar'; 
@@ -15,6 +16,8 @@ function App() {
   return (
     <div className="App">
       
+    <Header />
+
     <Navbar />
 
     <Home />
