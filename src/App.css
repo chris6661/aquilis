@@ -2,11 +2,11 @@
 :root {
   --primary-white: #fff;
   --primary-black: #141414;
+   --primary-light-orange: #ffaf42;
   --primary-orange: #ff8303;
-  --primary-light-orange: #ffaf42;
+  --primary-light-gray: #e0e0e0;
   --primary-gray: #4f4f4f;
   --primary-dark-gray: #2f2f2f;
-  --primary-light-gray: #7e7e7e;
 }
 
 /****NAVBAR****/
@@ -23,12 +23,13 @@ nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
   outline: 0;  
+  justify-content: center;
 }
 
 nav ul li {
   text-transform: uppercase;
-  display: inline-block;
-  text-align: center; 
+  display: inline;
+  justify-content: center; 
     
 }
 
@@ -49,4 +50,17 @@ nav ul li {
 
 ul {
   list-style: none; 
+}
+
+.about h1{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about p{
+  text-align: center;
+}
+
+.mission {
+  background-color: var(--primary-light-gray); 
 }
