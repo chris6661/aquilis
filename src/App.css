@@ -52,6 +52,37 @@ ul {
   list-style: none; 
 }
 
+/****HOME****/
+
+.learn {
+  text-align: center; 
+}
+
+.solutions {
+  background-color: var(--primary-gray);
+  text-align: center; 
+  color: white; 
+}
+
+.solutions h1 {
+  text-transform: uppercase;
+}
+
+.computer-sales {
+  text-align: center;
+}
+
+.computer-sales h1{
+  text-transform: uppercase;
+  color: var(--primary-gray); 
+}
+
+.computer-sales p{
+  color: var(--primary-gray); 
+}
+
+/****ABOUT****/
+
 .about h1{
   text-transform: uppercase;
   text-align: center;
@@ -63,4 +94,12 @@ ul {
 
 .mission {
   background-color: var(--primary-light-gray); 
+}
+
+/****FOOTER****/
+
+.footer {
+  background-color: var(--primary-gray); 
+  color: var(--primary-black); 
+  font-weight: bold; 
 }
