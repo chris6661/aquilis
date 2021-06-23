@@ -6,7 +6,7 @@ const About = () => {
            <h1>Your computer repair experts</h1>
 
            <p>If you are in need of computer repair, sales, or IT services, our experienced technicians are here to help! with 2 convenient locations and services ranging from virus removal, troubleshooting, and network installations to screen and hardware replacements, computer sales, and general consultations, our experts at Aquilis are all you need for superioir tech services.</p>
-        <div/>
+       
 
         <div className="mission">
             <h1>Our Mission & Purpose</h1>

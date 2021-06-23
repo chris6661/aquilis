@@ -54,6 +54,8 @@ ul {
 
 /****HOME****/
 
+
+
 .learn {
   text-align: center; 
 }
@@ -62,6 +64,7 @@ ul {
   background-color: var(--primary-gray);
   text-align: center; 
   color: white; 
+  padding: 15px 80px; 
 }
 
 .solutions h1 {
@@ -94,6 +97,7 @@ ul {
 
 .mission {
   background-color: var(--primary-light-gray); 
+  padding: 15px 80px; 
 }
 
 /****FOOTER****/
@@ -102,4 +106,5 @@ ul {
   background-color: var(--primary-gray); 
   color: var(--primary-black); 
   font-weight: bold; 
+  padding: 20px 0;
 }

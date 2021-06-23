@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <div className="hero">
                 image goes here
             </div>
@@ -21,7 +21,7 @@ const Home = () => {
             </div>
 
             <div className="computer-sales">
-                
+
                 <h1>Computer Sales</h1>
 
                 <p>At Aquilis, we sell new and used computers, desktops, and laptops in both PC and Mac formats. We offer custom built PCs for home or business, work, school, gaming, and even servers. Our customer built computers start at $499 and come with an outstanding 3 year warranty!</p>
