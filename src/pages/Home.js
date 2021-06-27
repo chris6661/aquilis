@@ -17,7 +17,6 @@ const Home = () => {
                 <h1>Professional business solution</h1>
 
                 <p>Aquilis is not only here for personal computer issues, we also offer business oslutions for other professionals. We can set you up with the best IT services that are perfect for your business, as well as assist with technical support and consulting for your business needs. From building new systems, to network installation, general servicing, and workstation troubleshooting, Aquilis is able to handle all of your business's technology and computer needs quickly, effectiveyl, and efficiently. Call now!</p>
-
             </div>
 
             <div className="computer-sales">
