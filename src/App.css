@@ -1,12 +1,13 @@
 
 :root {
-  --primary-white: #fff;
   --primary-black: #141414;
-   --primary-light-orange: #ffaf42;
-  --primary-orange: #ff8303;
-  --primary-light-gray: #e0e0e0;
-  --primary-gray: #4f4f4f;
+  --primary-blue: #0000FF;
   --primary-dark-gray: #2f2f2f;
+  --primary-gray: #4f4f4f;
+  --primary-light-gray: #e0e0e0;
+  --primary-light-orange: #ffaf42;
+  --primary-orange: #ff8303;
+  --primary-white: #fff;
 }
 
 /***HEADER***/
@@ -83,8 +84,6 @@ ul {
 
 /****HOME****/
 
-
-
 .learn {
   text-align: center; 
 }
@@ -124,9 +123,26 @@ ul {
   text-align: center;
 }
 
-.mission {
-  background-color: var(--primary-light-gray); 
+.purpose {
+  padding: 15px 80px;
+  text-transform: uppercase; 
+  color: var(--primary-gray);
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 1.5px solid var(--primary-blue);  
+}
+
+.mission p {
+  color: blue; 
+  padding: 0 75px;
+}
+
+.comp-found {
   padding: 15px 80px; 
+  text-transform: uppercase;
+  color: var(--primary-gray);
+  font-size: 32px; 
+  font-weight: bold; 
 }
 
 /****FOOTER****/
