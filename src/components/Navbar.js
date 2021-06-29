@@ -3,6 +3,9 @@ import React from 'react'
 //REACTFONT awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faBars } from "@fortawesome/free-solid-svg-icons"; 
+import {Link} from 'react-router-dom';
+
+
 const Navbar = () => {
     return (
       <div className="nav-main">
@@ -15,37 +18,38 @@ const Navbar = () => {
       
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto">
-            
+
             <li className="nav-item active">
-                <a href = "/#">Home</a>    
-            </li>
-             
-            <li className="nav-item">
-                <a href = "/#">About Us</a>
+              <Link  to = "/" className="nav-link" href="/#">Home <span className="sr-only">(current)</span></Link>
             </li>
 
             <li className="nav-item">
-                <a href = "/#">Testimonials</a>
+              <Link to = "/about"  className="nav-link" >About Us</Link>
+            </li>
+
+
+            <li className="nav-item">
+                <a href = "/testimonials" className="nav-link">Testimonials</a>
             </li>
             
             <li className="nav-item">
-                <a href = "/#">Services</a>
+                <a href = "/services" className="nav-link">Services</a>
             </li>
                 
             <li className="nav-item">
-                <a href = "/#">Sell</a>
+                <a href = "/sell" className="nav-link">Sell</a>
             </li>
                 
             <li className="nav-item">
-                <a href = "/#">Business Solutions</a>
+                <a href = "/business" className="nav-link">Business Solutions</a>
             </li>
             
             <li className="nav-item">
-                <a href = "/#">Locations</a>
+                <a href = "/locations" className="nav-link">Locations</a>
             </li>
             
             <li className="nav-item">
-                <a href = "/#">Book Online</a>
+                <a href = "/book" className="nav-link">Book Online</a>
             </li>
         
           </ul>
