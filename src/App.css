@@ -147,6 +147,14 @@ ul {
 
 /***LOCAITONS***/
 
+.north-hills {
+  padding: 40px 0 0 0;
+}
+
+.glassport {
+  padding: 65px 0 0 0;
+}
+
 .nh-shop {
   padding: 40px 0 0 0; 
 }
@@ -155,8 +163,12 @@ ul {
   padding: 40px 0 0 0; 
 }
 
-.glassport {
-  align-items: center; 
+address {
+  text-align: center;   
+}
+
+.hours {
+  text-align: center;
 }
 
 /****FOOTER****/
