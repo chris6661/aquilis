@@ -10,6 +10,9 @@
   --primary-white: #fff;
 }
 
+/***BODY***/
+
+
 /***HEADER***/
 .header {
   background-color: rgba(224, 224, 224, 30%);
@@ -85,6 +88,7 @@ ul {
 /****HOME****/
 
 .learn {
+  padding: 20px 80px 15px 80px;
   text-align: center; 
 }
 
@@ -101,19 +105,25 @@ ul {
   text-align: center; 
   color: white; 
   padding: 15px 80px; 
+  margin-right: -2%;
+  margin-left: -2%;
 }
 
 .solutions h1 {
   text-transform: uppercase;
+  font-weight: bold; 
 }
 
 .computer-sales {
+  padding: 15px 80px;
   text-align: center;
+  border-bottom: 1.5px solid var(--primary-orange); 
 }
 
 .computer-sales h1{
   text-transform: uppercase;
   color: var(--primary-gray); 
+  font-weight: bold; 
 }
 
 .computer-sales p{
