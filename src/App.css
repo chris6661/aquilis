@@ -15,7 +15,7 @@
   background-color: rgba(224, 224, 224, 30%);
   color: var(--primary-black); 
   font-weight: bold;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   /* background-image: url("../images/hero-bg.jpg"); */
   background-size: cover;
@@ -143,6 +143,20 @@ ul {
   color: var(--primary-gray);
   font-size: 32px; 
   font-weight: bold; 
+}
+
+/***LOCAITONS***/
+
+.nh-shop {
+  padding: 40px 0 0 0; 
+}
+
+.gm-shop {
+  padding: 40px 0 0 0; 
+}
+
+.glassport {
+  align-items: center; 
 }
 
 /****FOOTER****/

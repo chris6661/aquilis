@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 const Navbar = () => {
     return (
       <div className="nav-main">
-        <nav className="navbar navbar-expand-lg bg-dark fixed-top">
+        <nav className="navbar navbar-expand-lg bg-dark">
         <div className='container'>
         <a className="navbar" href="/#"> </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
