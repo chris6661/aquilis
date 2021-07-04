@@ -88,6 +88,14 @@ ul {
   text-align: center; 
 }
 
+.about-button {
+  background-color: var(--primary-orange); 
+  color: var(--primary-white); 
+  font-weight: bold; 
+  border: none; 
+  padding: 0 60px 0 60px; 
+}
+
 .solutions {
   background-color: var(--primary-gray);
   text-align: center; 
