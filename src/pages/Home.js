@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-
+import gaming from '../images/gaming1.jpg'
 const Home = () => {
     return (
                 <div className="container-fluid">
@@ -32,6 +32,40 @@ const Home = () => {
                                     <p>At Aquilis, we sell new and used computers, desktops, and laptops in both PC and Mac formats. We offer custom built PCs for home or business, work, school, gaming, and even servers. Our customer built computers start at $499 and come with an outstanding 3 year warranty!</p>
 
                                 </div>
+
+                                    <div className="budget">
+                                        <h5>Budget Computers</h5>
+                                            <p className="budget-text">Budget friendly customer built computers!</p>
+
+                                                <p className="budget-price">Starting @ $199</p>
+
+                                    </div>
+
+                                    <div className="gaming">
+                                        <div className="row">
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+
+                                                <h5>Gaming Computers</h5>
+                                                    <p className="gaming-text">Want to take your game to the next level? Ask us about gaming computers and let's figure out how to get back in the game together!</p>
+                                                    
+                                                        <p className="gaming-price">Starting @ $499</p>
+                                            </div>
+
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+                                                <img src={gaming} alt="gaming laptop" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="bws">
+                                        <h5>Business Workstations</h5>
+                                            <p className="bws-text">Office change recently? We can help you get set up with a workstation that will leave your coworkers jealous and keeo you on track! </p>
+                                            
+                                                <p className="bws-price">Starting @ $299</p>
+
+                                    </div>
+
+
                             </div>
                     </div>
                 </div>

@@ -130,6 +130,11 @@ ul {
   color: var(--primary-gray); 
 }
 
+.gaming img {
+  width: 400px;
+  height: 150px;
+}
+
 /****ABOUT****/
 
 .about h1{
