@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import gaming from '../images/gaming1.jpg'
+import gaming from '../images/gaming2.png'
 const Home = () => {
     return (
                 <div className="container-fluid">
@@ -34,11 +34,20 @@ const Home = () => {
                                 </div>
 
                                     <div className="budget">
-                                        <h5>Budget Computers</h5>
-                                            <p className="budget-text">Budget friendly customer built computers!</p>
+                                        <div className="row">
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
 
-                                                <p className="budget-price">Starting @ $199</p>
+                                                <h5>Budget Computers</h5>
+                                                <p className="budget-text">Budget friendly custom built computers!</p>
+                                                    
+                                                        <p className="budget-price">Starting @ $199</p>
+                                            </div>
 
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+                                                <img src={gaming} alt="gaming laptop" />
+                                            </div>
+
+                                        </div>
                                     </div>
 
                                     <div className="gaming">
@@ -54,17 +63,26 @@ const Home = () => {
                                             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
                                                 <img src={gaming} alt="gaming laptop" />
                                             </div>
+
                                         </div>
                                     </div>
 
                                     <div className="bws">
-                                        <h5>Business Workstations</h5>
-                                            <p className="bws-text">Office change recently? We can help you get set up with a workstation that will leave your coworkers jealous and keeo you on track! </p>
-                                            
-                                                <p className="bws-price">Starting @ $299</p>
+                                        <div className="row">
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
 
+                                                <h5>Business Workstations</h5>
+                                                <p className="bws-text">Need a change of scenery in the office? We can help you get set up with a workstation that will leave your coworkers jealous and keeo you on track! </p>
+                                                    
+                                                        <p className="bws-price">Starting @ $299</p>
+                                            </div>
+
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+                                                <img src={gaming} alt="gaming laptop" />
+                                            </div>
+
+                                        </div>
                                     </div>
-
 
                             </div>
                     </div>
