@@ -35,7 +35,7 @@ const Home = () => {
 
                                     <div className="budget">
                                         <div className="row">
-                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 budget">
 
                                                 <h5>Budget Computers</h5>
                                                 <p className="budget-text">Budget friendly custom built computers!</p>
@@ -43,7 +43,7 @@ const Home = () => {
                                                         <p className="budget-price">Starting @ $199</p>
                                             </div>
 
-                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 budget">
                                                 <img src={gaming} alt="gaming laptop" />
                                             </div>
 
@@ -52,7 +52,12 @@ const Home = () => {
 
                                     <div className="gaming">
                                         <div className="row">
+
                                             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+                                                 <img src={gaming} alt="gaming laptop" />
+                                            </div>
+
+                                          <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming-text">
 
                                                 <h5>Gaming Computers</h5>
                                                     <p className="gaming-text">Want to take your game to the next level? Ask us about gaming computers and let's figure out how to get back in the game together!</p>
@@ -60,16 +65,14 @@ const Home = () => {
                                                         <p className="gaming-price">Starting @ $499</p>
                                             </div>
 
-                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
-                                                <img src={gaming} alt="gaming laptop" />
-                                            </div>
+                                            
 
                                         </div>
                                     </div>
 
                                     <div className="bws">
                                         <div className="row">
-                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 bws-text">
 
                                                 <h5>Business Workstations</h5>
                                                 <p className="bws-text">Need a change of scenery in the office? We can help you get set up with a workstation that will leave your coworkers jealous and keeo you on track! </p>
@@ -77,7 +80,7 @@ const Home = () => {
                                                         <p className="bws-price">Starting @ $299</p>
                                             </div>
 
-                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
+                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 bws">
                                                 <img src={gaming} alt="gaming laptop" />
                                             </div>
 

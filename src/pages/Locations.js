@@ -5,7 +5,14 @@ const Locations = () => {
     return (
 
         <div className="container">
+
+                <div className="location">
+                    <h1>Locations</h1>
+                    <p>Our current store locations, stop on in today!</p>
+                </div>
+
             <div className="row">
+                
                 <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 nh-shop">
 
                     <div className="north-hills">

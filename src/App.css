@@ -130,16 +130,67 @@ ul {
   color: var(--primary-gray); 
 }
 
+.budget img {
+  width: 400px; 
+  height: 150px; 
+}
+
+.budget h5 {
+  padding: 15px 0 0 40px; 
+}
+
+.budget-text {
+  padding: 0 0 0 40px; 
+}
+
+.budget-price {
+  border-bottom: 2px solid var(--primary-blue); 
+  padding: 0 0 0 40px; 
+}
+
 .gaming img {
   width: 400px;
   height: 150px;
 }
+
+.gaming-text {
+  padding: 0 0 0 40px; 
+}
+
+.gaming h5 {
+  padding: 25px 0 0 40px; 
+}
+
+.gaming-price {
+  border-bottom: 2px solid var(--primary-blue); 
+  padding: 0 0 0 40px;
+}
+
+.bws img {
+  width: 400px; 
+  height: 150px;
+}
+
+.bws-price {
+  border-bottom: 2px solid var(--primary-blue); 
+  padding: 0 0 0 40px;
+}
+
+.bws h5 {
+  padding: 15px 0 0 40px; 
+}
+
+.bws-text {
+  padding: 0 0 0 40px; 
+}
+
 
 /****ABOUT****/
 
 .about h1{
   text-transform: uppercase;
   text-align: center;
+  padding: 15px 0 0 0;
 }
 
 .about p{
@@ -168,7 +219,31 @@ ul {
   font-weight: bold; 
 }
 
+/***SALES***/
+
+.sales {
+  text-align: center;
+}
+
+.sales h1 {
+  padding: 15px 0 0 0;
+  text-transform: uppercase; 
+  font-weight: bold; 
+}
+
+
 /***LOCAITONS***/
+
+.location {
+  text-align: center;
+}
+
+.location h1 {
+  text-transform: uppercase; 
+  padding: 15px 0 0 0;
+  font-weight: bold; 
+}
+
 
 .north-hills {
   padding: 40px 0 0 0;
