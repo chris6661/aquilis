@@ -52,7 +52,6 @@ const Home = () => {
 
                                     <div className="gaming">
                                         <div className="row">
-
                                             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 gaming">
                                                  <img src={gaming} alt="gaming laptop" />
                                             </div>
@@ -64,9 +63,6 @@ const Home = () => {
                                                     
                                                         <p className="gaming-price">Starting @ $499</p>
                                             </div>
-
-                                            
-
                                         </div>
                                     </div>
 
@@ -80,14 +76,13 @@ const Home = () => {
                                                         <p className="bws-price">Starting @ $299</p>
                                             </div>
 
-                                            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 bws">
-                                                <img src={gaming} alt="gaming laptop" />
-                                            </div>
+                                        <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 bws">
+                                            <img src={gaming} alt="gaming laptop" />
+                                        </div>                        
 
+                                            </div>
                                         </div>
                                     </div>
-
-                            </div>
                     </div>
                 </div>
     )

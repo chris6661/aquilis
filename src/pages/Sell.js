@@ -21,42 +21,44 @@ const Sell = () => {
                         </div>
 
                                 <div className="container">
-                                    <div className="row row-cols-3">
-                                        <div className="col sales-tablets">
-                                        <img src={tablet} alt="phones and tablets" />
+                                    <div className="sales-images">
+                                        <div className="row row-cols-3">
+                                            <div className="col sales-tablets">
+                                            <img src={tablet} alt="phones and tablets" />
 
-                                            <h5>Tablets and Phones</h5>
-                                        </div>
+                                                <h5>Tablets and Phones</h5>
+                                            </div>
 
-                                        <div className="col sales-monitors">
-                                        <img src={monitor} alt="computer monitor" />
+                                            <div className="col sales-monitors">
+                                            <img src={monitor} alt="computer monitor" />
 
-                                            <h5>Monitors</h5>
-                                        </div>
+                                                <h5>Monitors</h5>
+                                            </div>
 
-                                        <div className="col sales-macbooks">
-                                        <img src={macbook} alt="macbook" />
+                                            <div className="col sales-macbooks">
+                                            <img src={macbook} alt="macbook" />
 
-                                            <h5>Macbooks</h5>
-                                        </div>
+                                                <h5>Macbooks</h5>
+                                            </div>
 
-                                        <div className="col sales-desktops">
-                                        <img src={desktop} alt="desktop pc" />
+                                            <div className="col sales-desktops">
+                                            <img src={desktop} alt="desktop pc" />
 
-                                            <h5>Desktops PCs</h5>
-                                        </div>
+                                                <h5>Desktops PCs</h5>
+                                            </div>
 
-                                        <div className="col sales-windows">
-                                        <img src={tablet} alt="phones and tablets" />
+                                            <div className="col sales-windows">
+                                            <img src={tablet} alt="phones and tablets" />
 
-                                            <h5>Windows</h5>
-                                        </div>
+                                                <h5>Windows</h5>
+                                            </div>
 
-                                        <div className="col sales-parts">
-                                        <img src={tablet} alt="phones and tablets" />
-                                    
-                                            <h5>Parts and Accessories</h5>
-                                        </div>
+                                            <div className="col sales-parts">
+                                            <img src={tablet} alt="phones and tablets" />
+                                        
+                                                <h5>Parts and Accessories</h5>
+                                            </div>
+                                        </div> 
                                     </div>
                                 </div>
                         {/* 515 w 335 h */}

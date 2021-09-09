@@ -242,10 +242,13 @@ ul {
   margin-left: -2%;
 }
 
+.sales-images {
+  padding: 15px 80px;
+}
+
 .sales img {
-  height: 100px; 
-  width: 150px; 
-  flex: 1; 
+  height: 200px; 
+  width: 250px; 
 }
 
 /***LOCAITONS***/
