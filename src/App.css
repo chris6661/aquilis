@@ -12,6 +12,9 @@
 
 /***BODY***/
 
+body, html {
+  height: 100%; 
+}
 
 /***HEADER***/
 .header {
@@ -239,6 +242,11 @@ ul {
   margin-left: -2%;
 }
 
+.sales img {
+  height: 100px; 
+  width: 150px; 
+  flex: 1; 
+}
 
 /***LOCAITONS***/
 
@@ -283,8 +291,18 @@ address {
   background-color: var(--primary-gray); 
   color: var(--primary-black); 
   font-weight: bold; 
+  position: absolute; 
+  bottom: 0; 
+  width: 100%; 
 }
 
 .footer-socials {
  text-align: right;  
 }
+
+/* #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+ 
