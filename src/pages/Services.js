@@ -15,19 +15,19 @@ const Services = () => {
 
 
             <h4>Slow Computer?</h4>
-                <p></p>
-                    <h5></h5>
-                        <p></p>
-                    <h5></h5>
-                        <p></p>
+                <p>Is your computer running slower than usual or just want a speed boost? Are you worried you might have a virus? Bring it in and we'll bring you back up to speed!</p>
+                    <h5>Software/Hardware Upgrades</h5>
+                        <p>Is your anti-virus software in need of a major update? Do you need to upgrade to the latest version of Windows? Do you need more memory, or need to add a video card if you are an avid gamer? Call us today and we can help!</p>
+                    <h5>Mobile Devices</h5>
+                        <p>We can help you out with mobile devices as well, whether it's a tablet, iPad, or smart phone. Aquilis is here to help you with any of your needs regardless of device or screen size.</p>
 
 
             <h4>Business IT Services, Support, and Consulting</h4>
-                <p></p>
-                    <h5></h5>
-                        <p></p>
-                    <h5></h5>
-                        <p></p>
+                <p>Aquilis IT services are perfect for your business, whether you need a new system built, network installation done, general servicing, or troubleshooting your workstations.</p>
+                    <h5>Computer Networking</h5>
+                        <p>Wi-Fi issues? We can help you install your home network or your network at work. We will also ensure your network is set up correctly for security, speed/performance, and safety.</p>
+                    <h5>For Small Business</h5>
+                        <p>Aquilis is the perfect source to become your own IT staff! We service all types of businesses from boroughs, non-profits, first responder departments, and more! Our rates are very affordable compared to our competition and our techs are experts in technology as well as great with customer service so that you and your staff both fully understand what's going on. We can also offer a contract that is tailored to your needs so down time is minimized with our professional services.</p>
 
 
         </div>
