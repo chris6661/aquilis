@@ -194,6 +194,8 @@ ul {
   text-transform: uppercase;
   text-align: center;
   padding: 15px 0 0 0;
+  font-weight: bold; 
+  color: var(--primary-dark-gray)
 }
 
 .about p{
@@ -219,6 +221,12 @@ ul {
   text-transform: uppercase;
   color: var(--primary-gray);
   font-size: 32px; 
+  font-weight: bold; 
+}
+
+/***SERVICES***/
+.repairs-main  {
+  text-transform: uppercase;
   font-weight: bold; 
 }
 

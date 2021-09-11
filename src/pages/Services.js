@@ -6,6 +6,10 @@ const Services = () => {
             {/* 3x3 grid is original site */}
             {/* topic, then goes in to what each one covers underneath */}
             {/* for development, start with h4 and 5 tags */}
+
+            <h1 className="repairs-main">Repairs and Upgrades</h1>
+                <p>Aquilis offers fast, affordable, and expert computer repair, upgrades, and troubleshooting for your company or personal use. We offer IT services and consulting at a great rate, regardless of company o business size. </p>
+
             <h4>Hardware Replacement</h4>
             <p>We can fix it all from broken screens to crashed hard drives, memory or motherboard replacement, and liquid spill damage. Stop in to see how we can help!</p>
                 <h5>Repairs</h5>
