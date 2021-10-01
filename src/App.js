@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import About from './pages/About'; 
 import Book from './pages/Book'; 
-import Business from './pages/Business';
+// import Business from './pages/Business';
 import Footer from "./components/Footer";  
 import Header from "./pages/Header"; 
 import Home from './pages/Home'; 
@@ -35,7 +35,7 @@ function App() {
     <Route exact path = "/testimonials" component = {Testimonials}/>
 
     <Route exact path = "/sell" component = {Sell} />
-    <Route exact path = "/business" component = {Business} />
+    {/* <Route exact path = "/business" component = {Business} /> */}
 
     <Route exact path = "/locations" component = {Locations} />
     <Route exact path = "/book" component = {Book}/>
