@@ -375,6 +375,19 @@ address {
   text-transform: uppercase; 
   font-weight: bold; 
 }
+
+.card1 {
+  border: 3px solid red; 
+}
+
+.card2 {
+  border: 3px solid blue; 
+}
+
+.card3 {
+  border: 3px solid green; 
+}
+
 /****FOOTER****/
 
 .footer {
