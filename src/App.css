@@ -224,6 +224,29 @@ ul {
   font-weight: bold; 
 }
 
+/****TESTIMONIALS****/
+
+.testimonials h1 {
+  text-transform: uppercase; 
+  text-align: center; 
+  padding: 15px 0 0 0;
+  font-weight: bold; 
+  color: var(--primary-white); 
+}
+
+.testimonials p {
+  text-align: center; 
+}
+
+.testimonials {
+  background-color: var(--primary-gray);
+  color: var(--primary-white);
+  padding: 0 0 15px 0; 
+  margin-right: -2%;
+  margin-left: -2%;
+}
+
+
 /***SERVICES***/
 
 .services h1 {

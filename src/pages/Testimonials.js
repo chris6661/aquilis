@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonials = () => {
     return (
-        <div className="container">
+        <div className="container-fluid">
 
             <div className="testimonials">
                 
@@ -25,7 +25,7 @@ const Testimonials = () => {
                 <p>"Very knowledgeable.....instantly knew the problem.....my computer now runs like a brand new machine! Thanks again!</p>
                     <span>Matt Sauers - Customer - January 2015</span>
 
-                
+
 
             </div>
             
