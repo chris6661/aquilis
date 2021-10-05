@@ -246,6 +246,9 @@ ul {
   margin-left: -2%;
 }
 
+.review-box {
+  border: 5px solid red; 
+}
 
 /***SERVICES***/
 
