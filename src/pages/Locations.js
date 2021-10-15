@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Locations = () => {
     return (
 
-        <div className="container">
+        <div className="container-fluid">
 
                 <div className="location">
                     <h1>Locations</h1>
