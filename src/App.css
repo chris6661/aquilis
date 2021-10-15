@@ -359,7 +359,6 @@ address {
 .book-main {
   background-color: var(--primary-gray);
   color: var(--primary-white);
-  padding: 0 0 15px 0; 
   padding: 15px 80px; 
   margin-right: -2%;
   margin-left: -2%;
@@ -376,16 +375,14 @@ address {
   font-weight: bold; 
 }
 
-.card1 {
-  border: 3px solid red; 
+.row {
+  padding: 15px 80px; 
 }
 
-.card2 {
-  border: 3px solid blue; 
-}
-
-.card3 {
-  border: 3px solid green; 
+.card1, .card2, .card3 {
+  padding: 15px; 
+  border: 2px solid var(--primary-dark-gray); 
+  text-align: center;
 }
 
 /****FOOTER****/
