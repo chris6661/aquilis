@@ -8,7 +8,7 @@ const Sell = () => {
     return (
         
             <div className="container-fluid">
-                <div className ="row">
+                
                     <div className="sales">
 
                         <div className="sales-main">
@@ -64,7 +64,7 @@ const Sell = () => {
                         {/* 515 w 335 h */}
 
                     </div>
-                </div>
+                
             </div>
         
     )

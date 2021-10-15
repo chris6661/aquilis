@@ -297,12 +297,12 @@ ul {
 .sales h1 {
   text-transform: uppercase; 
   font-weight: bold; 
+  padding: 15px 0 0 0;
 }
 
 .sales-main {
   background-color: var(--primary-gray);
   color: var(--primary-white);
-  padding: 0 0 15px 0; 
   padding: 15px 80px; 
   margin-right: -2%;
   margin-left: -2%;
