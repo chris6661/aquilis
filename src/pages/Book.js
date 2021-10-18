@@ -21,7 +21,7 @@ const Book = () => {
                                     <h3>In Store Appointment</h3>
                                         <h5>1 hour</h5>
                                             <h6>$20</h6>
-                                                <button>Book Now</button>
+                                                <button className="in-store-button">Book Now</button>
                                 </div>
                             </div>
 
@@ -31,7 +31,7 @@ const Book = () => {
                                     <h3>In Home Service Call</h3>
                                         <h5>1 hour</h5>
                                             <h6>$74.99</h6>
-                                                <button>Book Now</button>
+                                                <button className="in-home-button">Book Now</button>
                                 </div>
                             </div>
 
@@ -41,10 +41,10 @@ const Book = () => {
                                     <h3>Commerical Service Call</h3>
                                         <h5>1 hour</h5>
                                             <h6>$99.99</h6>
-                                                <button>Book Now</button>
+                                                <button className="commercial-button">Book Now</button>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                     </div>

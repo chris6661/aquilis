@@ -8,13 +8,13 @@ const About = () => {
                 <div className="about">
                 <h1>Your computer repair experts</h1>
 
-                <p>If you are in need of computer repair, sales, or IT services, our experienced technicians are here to help! with 2 convenient locations and services ranging from virus removal, troubleshooting, and network installations to screen and hardware replacements, computer sales, and general consultations, our experts at Aquilis are all you need for superior tech services.</p>
+                <p>If you are in need of computer repair, sales, or IT services, our experienced technicians are here to help! With 2 convenient locations and services ranging from virus removal, troubleshooting, and network installations to screen and hardware replacements, computer sales, and general consultations, our experts at Aquilis are all you need for superior tech services.</p>
             
                 <details className="mission">
                         <summary className="purpose">Our Mission & Purpose</summary>
-                        <p>Our mission at Aquilis Computer Repair, Sales, and IT Services is to service the computer industry as a whole, starting with outstanding customer service and workmanship. Our speicalty is building custom computers for clients needing technology for personal, family, or business use, while also partaking in computer sales and services. </p>
+                        <p>Our mission at Aquilis Computer Repair, Sales, and IT Services is to service the computer industry as a whole, starting with outstanding customer service and workmanship. Our specialty is building custom computers for clients needing technology for personal, family, or business use, while also partaking in computer sales and services. </p>
                         <br/>
-                        <p>In addition, we also have expert multimedia designs avaiolable from basic slideshow and video designs to advanced graphic design jobs. We offer a variety of computer parts and repair services in-store, in-home, and remotely for our customers convenience. Aquilis is your fast, friendly, reliable, and expert computer repair company for all of your technical needs!</p>
+                        <p>In addition, we also have expert multimedia designs available from basic slideshow and video designs to advanced graphic design jobs. We offer a variety of computer parts and repair services in-store, in-home, and remotely for our customers convenience. Aquilis is your fast, friendly, reliable, and expert computer repair company for all of your technical needs!</p>
 
                 </details>
 

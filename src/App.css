@@ -308,7 +308,7 @@ ul {
 }
 
 .sales-images {
-  padding: 15px 80px;
+  padding: 15px 0;
 }
 
 .sales img {
@@ -332,7 +332,6 @@ ul {
   font-weight: bold; 
 }
 
-
 .north-hills {
   padding: 40px 0 0 0;
 }
@@ -340,6 +339,15 @@ ul {
 .glassport {
   padding: 65px 0 0 0;
 }
+
+.north-hills h2, .glassport h2 {
+  font-weight: bold; 
+}
+
+.north-hills h3, .glassport h3 {
+  font-weight: bold; 
+}
+
 
 .nh-shop {
   padding: 40px 0 0 0; 
@@ -379,14 +387,23 @@ address {
 }
 
 .row {
-  padding: 15px 80px; 
+  padding: 25px 80px; 
 }
 
 .card1, .card2, .card3 {
   padding: 15px; 
   border: 2px solid var(--primary-dark-gray); 
   text-align: center;
+  background-color: var(--primary-gray);
+  color: var(--primary-white);
 }
+
+ .in-home-button, .in-store-button, .commercial-button {
+  background-color: var(--primary-white);
+  color: var(--primary-gray); 
+  font-weight: bold; 
+ }
+
 
 /****FOOTER****/
 
