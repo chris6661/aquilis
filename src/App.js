@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import About from './pages/About'; 
 import Book from './pages/Book'; 
+import Calendar from './pages/Calendar'; 
 // import Business from './pages/Business';
 import Footer from "./components/Footer";  
 import Header from "./pages/Header"; 
@@ -39,6 +40,8 @@ function App() {
 
     <Route exact path = "/locations" component = {Locations} />
     <Route exact path = "/book" component = {Book}/>
+
+    <Route exact path = "/calendar" component = {Calendar} />
 
     </div>
 
