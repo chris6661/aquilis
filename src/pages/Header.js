@@ -1,10 +1,13 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
+import logo from '../images/aquilis_logo_1.PNG'; 
 
 const Header = () => {
     return (
         <div className="header">
             <div className="hero">
+
+                <img src= {logo} alt="aquilis logo" />
 
             </div>
 
