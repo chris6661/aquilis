@@ -1,12 +1,12 @@
 
 :root {
   --primary-black: #141414;
-  --primary-blue: #0000FF;
+  --primary-blue: #2874e5;
   --primary-dark-gray: #2f2f2f;
   --primary-gray: #4f4f4f;
   --primary-light-gray: #e0e0e0;
   --primary-light-orange: #ffaf42;
-  --primary-orange: #ff8303;
+  --primary-orange: #ff9500;
   --primary-white: #fff;
 }
 
@@ -350,11 +350,11 @@ ul {
 
 
 .nh-shop {
-  padding: 40px 0 0 0; 
+  padding: 40px 0; 
 }
 
 .gm-shop {
-  padding: 40px 0 40px 0; 
+  padding: 40px 0; 
 }
 
 address {
