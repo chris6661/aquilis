@@ -8,8 +8,7 @@ const Header = () => {
             <div className="hero">
 
                 <img src= {logo} alt="aquilis logo" />
-
-            </div>
+         
 
             <div className="contact-info">
                 Call Now: 412.931.2400 | 412.896.1540
@@ -23,6 +22,7 @@ const Header = () => {
             <SocialIcon network ="facebook" style = {{ height: 35, width: 35 }}/>
 
             </div>
+        </div>
         </div>
     )
 }

@@ -18,12 +18,10 @@ body, html {
 
 /***HEADER***/
 .header {
-  background-color: rgba(224, 224, 224, 30%);
   color: var(--primary-black); 
   font-weight: bold;
   /* position: sticky; */
   top: 0;
-  /* background-image: url("../images/hero-bg.jpg"); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
