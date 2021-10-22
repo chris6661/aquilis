@@ -7,22 +7,22 @@ const Header = () => {
         <div className="header">
             <div className="hero">
 
-                <img src= {logo} alt="aquilis logo" />
-         
-
-            <div className="contact-info">
-                Call Now: 412.931.2400 | 412.896.1540
+                
             </div>
 
-            <div className="media-buttons">
+            <div className="contact-info">
+                <img className="main-logo" src= {logo} alt="aquilis logo" />
+                <p>Call Now: 412.931.2400 | 412.896.1540</p>
+            </div>
+
+            {/* <div className="media-buttons">
 
             <SocialIcon network ="twitter" style={{ height: 35, width: 35 }}/>
             <SocialIcon network ="linkedin" style={{ height: 35, width:35 }} />
             <SocialIcon network ="google" style = {{ height: 35, width: 35 }} />
             <SocialIcon network ="facebook" style = {{ height: 35, width: 35 }}/>
 
-            </div>
-        </div>
+            </div> */}
         </div>
     )
 }
