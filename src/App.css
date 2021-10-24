@@ -22,6 +22,7 @@ body, html {
   font-weight: bold;
   /* position: sticky; */
   top: 0;
+  padding: 0 0 30px 0;; 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -29,16 +30,13 @@ body, html {
   /* z-index: 9999; */
 }
 
-.contact-info p {
-  position: right;
-  color: var(--primary-black);  
-  text-align: right;
-  padding: 10px 10px 10px 0; 
+.logo {
+  padding: 0 0 15px 0;
 }
 
-.contact-info img {
-  text-align: left; 
-  margin: 0 auto; 
+.contact-info {
+  text-align: right;
+  margin: -71.5px 5px 0 0;
 }
 
 .media-buttons {

@@ -1,18 +1,22 @@
 import React from 'react'
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 import logo from '../images/aquilis_logo_1.PNG'; 
+
 
 const Header = () => {
     return (
         <div className="header">
             <div className="hero">
-
                 
             </div>
 
-            <div className="contact-info">
-                <img className="main-logo" src= {logo} alt="aquilis logo" />
-                <p>Call Now: 412.931.2400 | 412.896.1540</p>
+            {/* center in middle of page */}
+            <div className="logo">
+                <img src={logo} alt="logo" />
+            </div>
+
+            <div className="contact-info">            
+                <p className="phone">Call Now: 412.931.2400 | 412.896.1540</p>
             </div>
 
             {/* <div className="media-buttons">
