@@ -2,7 +2,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import About from './pages/About'; 
 import Book from './pages/Book'; 
+import Booking1 from './pages/Booking1'; 
 import Calendar from './pages/Calendar'; 
+import Confirmation from './pages/Confirmation';
 // import Business from './pages/Business';
 import Footer from "./components/Footer";  
 import Header from "./pages/Header"; 
@@ -42,6 +44,9 @@ function App() {
     <Route exact path = "/book" component = {Book}/>
 
     <Route exact path = "/calendar" component = {Calendar} />
+    <Route exact path = "/booking1" component = {Booking1} />
+
+    <Route exact path = "/confirmation" component = {Confirmation} />
 
     </div>
 
