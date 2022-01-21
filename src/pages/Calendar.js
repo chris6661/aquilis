@@ -4,6 +4,11 @@ import {Link} from 'react-router-dom';
 
 const Calendar = () => {
     return (
+
+        // import google calendar api
+        // use google calendar api to display calendar
+        // use google calendar api to add events
+
         <div>
 
             <h1>This is the calendar page</h1>
